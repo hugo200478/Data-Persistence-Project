@@ -31,6 +31,7 @@ public class Brick : MonoBehaviour
                 break;
         }
         renderer.SetPropertyBlock(block);
+      
     }
 
     private void OnCollisionEnter(Collision other)
